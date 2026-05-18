@@ -8,7 +8,7 @@
         body {
             margin: 0;
             padding: 0;
-            background-color: #1e6c93; /* 元のGoogleサイトと同じ綺麗な青色 */
+            background-color: #1e6c93;
             font-family: 'Comic Sans MS', 'Meiryo', Arial, sans-serif;
             display: flex;
             justify-content: center;
@@ -21,17 +21,12 @@
             padding: 20px;
         }
         h1 {
-            color: #ff9900; /* 元のサイトと同じオレンジ色 */
+            color: #ff9900;
             font-size: 4rem;
             font-weight: 700;
             margin: 0;
             letter-spacing: 2px;
             text-shadow: 2px 2px 4px rgba(0,0,0,0.2);
-            animation: pop 0.5s ease-out;
-        }
-        @keyframes pop {
-            0% { transform: scale(0.8); opacity: 0; }
-            100% { transform: scale(1); opacity: 1; }
         }
         @media only screen and (max-width: 480px) {
             h1 { font-size: 2.5rem; }
